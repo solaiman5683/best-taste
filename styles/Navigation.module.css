@@ -1,0 +1,54 @@
+.navbar {
+	backdrop-filter: blur(40px);
+	background: linear-gradient(
+		121.37deg,
+		rgba(205, 205, 205, 0.5) -12.1%,
+		rgba(17, 17, 17, 0.5) 6.11%,
+		rgba(17, 17, 17, 0.5) 93.83%
+	);
+}
+.menu a {
+	font-size: 16px;
+	display: inline-block;
+	margin: 30px 20px;
+	position: relative;
+}
+.menu a::after {
+	content: ' ';
+	width: 0;
+	height: 3px;
+	background-color: red;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transition: all 0.3s linear;
+}
+.menu a:hover::after {
+	width: 100%;
+}
+
+.controller {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.controller button {
+	padding: 5px;
+}
+
+.loginBtn {
+	background: rgba(255, 255, 255, 0.15);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px !important;
+	border: 0.661761px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 66.1761px;
+	color: #fff;
+	gap: 8px;
+}
+
+@-moz-document url-prefix() {
+}
