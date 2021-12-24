@@ -1,8 +1,8 @@
 import styles from '../styles/Home.module.css';
-// import '@material-tailwind/react/tailwind.css';
 import HeadTag from './Components/Head/HeadTag';
 import Hero from './Components/Hero/Hero';
 import Navigation from './Components/Navigation/Navigation';
+import Shop from './Components/Shop/Shop';
 
 export default function Home() {
 	return (
@@ -10,6 +10,8 @@ export default function Home() {
 			<HeadTag />
 			<Navigation />
 			<Hero />
+
+			<Shop />
 		</div>
 	);
 }
