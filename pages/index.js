@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css';
 import HeadTag from './Components/Head/HeadTag';
 import Hero from './Components/Hero/Hero';
 import Navigation from './Components/Navigation/Navigation';
+import Promo from './Components/Promo/Promo';
 import Shop from './Components/Shop/Shop';
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
 			<HeadTag />
 			<Navigation />
 			<Hero />
-
 			<Shop />
+			<Promo />
 		</div>
 	);
 }

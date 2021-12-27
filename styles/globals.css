@@ -34,3 +34,17 @@ input:focus {
 	padding: 0;
 	margin: 15px 0;
 }
+
+p {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+	background: rgba(83, 83, 83, 0.432);
+	padding: 8px 20px !important;
+	border: 0.661761px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 66.1761px;
+	color: #fff;
+	gap: 8px;
+}
