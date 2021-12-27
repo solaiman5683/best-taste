@@ -8,7 +8,6 @@ body {
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center top;
-	height: 5000px;
 	scrollbar-width: none;
 }
 
@@ -40,7 +39,7 @@ p {
 }
 
 .btn {
-	background: rgba(83, 83, 83, 0.432);
+	background: rgba(41, 41, 41, 0.432);
 	padding: 8px 20px !important;
 	border: 0.661761px solid rgba(255, 255, 255, 0.5);
 	box-sizing: border-box;

@@ -42,7 +42,7 @@ const Promo = () => {
 					/>
 				</Grid>
 			</Grid>
-			<Box sx={{ textAlign: 'center', mt: 8 }}>
+			<Box sx={{ textAlign: 'center', mt: 5 }}>
 				<Button className='btn'>Order Now</Button>
 			</Box>
 		</Container>
