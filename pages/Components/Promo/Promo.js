@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Promo = () => {
 	return (
-		<Container maxWidth='xl' sx={{ my: 25 }}>
+		<Container maxWidth='xl' sx={{ my: 20 }}>
 			<Box sx={{ textAlign: 'center' }}>
 				<h1>Business Lunch</h1>
 				<p>order before 03:00PM</p>

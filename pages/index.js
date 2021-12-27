@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css';
+import Delivery from './Components/Delivery/Delivery';
 import HeadTag from './Components/Head/HeadTag';
 import Hero from './Components/Hero/Hero';
 import Navigation from './Components/Navigation/Navigation';
@@ -13,6 +14,7 @@ export default function Home() {
 			<Hero />
 			<Shop />
 			<Promo />
+			<Delivery />
 		</div>
 	);
 }
