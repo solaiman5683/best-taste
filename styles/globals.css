@@ -21,3 +21,16 @@ a {
 	box-sizing: border-box;
 	color: aliceblue;
 }
+
+input:focus {
+	outline: none;
+}
+.MuiTabs-indicator {
+	background-color: #ff2f30;
+	height: 3px;
+}
+
+.css-19kzrtu {
+	padding: 0;
+	margin: 15px 0;
+}

@@ -1,0 +1,17 @@
+.foodGrid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.foodItem {
+	margin-top: 30px;
+	margin-right: 15px;
+	text-align: center;
+	background: #191919;
+	border-radius: 17.7778px;
+	padding: 15px;
+}
+.foodImage * {
+	display: inline-block;
+	top: -25px;
+}
