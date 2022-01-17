@@ -108,6 +108,16 @@
 	margin-left: 0.5rem;
 }
 
+.btn {
+	background: rgba(41, 41, 41, 0.432);
+	padding: 8px 20px !important;
+	border: 0.661761px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 66.1761px;
+	color: #ffffff;
+	gap: 8px;
+}
+
 @media (max-width: 600px) {
 	.grid {
 		width: 100%;

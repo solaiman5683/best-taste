@@ -1,5 +1,6 @@
 import { Box, Button, Container, Grid } from '@mui/material';
 import Image from 'next/image';
+import styles from '../../../styles/Home.module.css';
 
 const Promo = () => {
 	return (
@@ -43,7 +44,7 @@ const Promo = () => {
 				</Grid>
 			</Grid>
 			<Box sx={{ textAlign: 'center', mt: 5 }}>
-				<Button className='btn'>Order Now</Button>
+				<Button className={styles.btn}>Order Now</Button>
 			</Box>
 		</Container>
 	);
