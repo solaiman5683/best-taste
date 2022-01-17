@@ -38,7 +38,7 @@ p {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.btn {
+.btn.MuiButton-textPrimary {
 	background: rgba(41, 41, 41, 0.432);
 	padding: 8px 20px !important;
 	border: 0.661761px solid rgba(255, 255, 255, 0.5);
